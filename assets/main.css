@@ -1,0 +1,88 @@
+body {
+        font-family: 'PT Sans', sans-serif;
+        color: #505961;                 /*dark gray*/
+        background-color: #f1f1f1;      /*off-white*/
+	background-image: url( images/flowertrail/flowertrail.png);
+}
+
+h1, h2 {
+        text-align: center;
+
+}
+
+h2, h3 {                        /*coursework & skills lists*/
+        font-weight: bold;
+}
+
+h4 {
+        font-style: italic;
+}
+
+#container{
+
+        background-color: #F7F5F5;
+        width:800px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+}
+
+#intro {
+        text-align: center;
+}
+
+.lists {        /*classes and skills lists*/
+        padding-left: 20px;
+}
+
+.images {
+        width: 650px; /* new width of image */
+        height: 500px; /* new height of image */
+        margin-left: auto;
+        margin-right: auto;
+}
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"special.css" 24L, 389C                                       1,0-1         All
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"main.css" 21L, 254C                                          1,0-1         All
+
