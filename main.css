@@ -2,6 +2,7 @@ body {
         font-family: 'PT Sans', sans-serif;
         color: #505961;                 /*dark gray*/
         background-color: #f1f1f1;      /*off-white*/
+	background-image: url( images/flowertrail/flowertrail.png);
 }
 
 h1, h2 {
