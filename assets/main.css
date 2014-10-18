@@ -1,88 +1,65 @@
+/*
+off white #FCF7EB
+teal: #367485
+peach: #F8A78B
+tan: #EBEBDD
+pink: #EA4975
+*/
+
 body {
-        font-family: 'PT Sans', sans-serif;
-        color: #505961;                 /*dark gray*/
-        background-color: #f1f1f1;      /*off-white*/
-	background-image: url( images/flowertrail/flowertrail.png);
+	font-family: 'PT Sans', sans-serif;
+	color: #367485;                 /*teal*/
+	background-color: #FCF7EB;      /*off-white*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#header {
+	color: #EA4975;
+	background-color: #FCF7EB;
+}
+
+#background {
+	background: url('assets/images/circles.png');
+	width: 100%;
+	height: 100%;
 }
 
 h1, h2 {
-        text-align: center;
+	text-align: center;
+	color: #EA4975;
 
 }
 
 h2, h3 {                        /*coursework & skills lists*/
-        font-weight: bold;
+	font-weight: bold;
 }
 
 h4 {
-        font-style: italic;
+	font-style: italic;
 }
 
-#container{
+.container{
+	background-color: #FCF7EB;
+	width:800px;
+	margin: 0 auto;
 
-        background-color: #F7F5F5;
-        width:800px;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 20px;
+	padding: 20px;
 }
 
-#intro {
-        text-align: center;
-}
+
 
 .lists {        /*classes and skills lists*/
-        padding-left: 20px;
+	padding-left: 20px;
 }
 
 .images {
-        width: 650px; /* new width of image */
-        height: 500px; /* new height of image */
-        margin-left: auto;
-        margin-right: auto;
+	width: 650px; /* new width of image */
+	height: 500px; /* new height of image */
+	margin-left: auto;
+	margin-right: auto;
 }
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-"special.css" 24L, 389C                                       1,0-1         All
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-"main.css" 21L, 254C                                          1,0-1         All
+
+
+
 
