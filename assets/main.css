@@ -31,12 +31,12 @@ body {
 
 h1 {
 	text-align: center;
-color: #EA4975;
-position: absolute;
-z-index: 2;
-top: 60%;
-left: 38%;
-background-color: #FCF7EB;
+	color: #EA4975;
+	position: absolute;
+	z-index: 2;
+	background-color: #FCF7EB;
+	top: calc(60% - 21px);
+	left: calc(50% - 129px);
 }
 
 h2 {
