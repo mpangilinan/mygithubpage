@@ -5,13 +5,20 @@ peach: #F8A78B
 tan: #EBEBDD
 pink: #EA4975
 */
-
+html {
+	height: 100%;
+	width: 100%;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	line-height: 150%; 
+	color: #FCF7EB;
 	height: 100%;
-	/*width: 100%;  	*/
+	width: 100%;  	
+	background-repeat: no-repeat;
+	background-color: black;
 }
 
 #background {
@@ -31,8 +38,8 @@ body {
 .star {
 	background: transparent;
 	float:left;
-	width:27px;
-	height:27px;
+	width:26px;
+	height:26px;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 	opacity: 0;
@@ -40,7 +47,7 @@ body {
 
 
 @-webkit-keyframes twinkle {
-	0%   { opacity: 0; }
+	0%   { opacity: 0.5; }
 	10%   { opacity: 1; }
 	20%   { opacity: 0; }
 	80%   { opacity: 0; }
@@ -71,39 +78,63 @@ body {
 	top: 0; left: 0; right:0; bottom: 0;
 	width: 100%;
 	height: 100%;
-	display: block;
-/*	background: url('images/twinkle.png') repeat top center;
-*/	z-index: 1;
-
-	-webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-
-	-moz-animation: move-twink-back 200s infinite;
-	-ms-animation: move-twink-back 200s linear infinite;
-	-o-animation: move-twink-back 200s linear infinite;
-	/*-webkit-animation: move-twink-back 5s infinite;*/
-	animation: move-twink-back 200s linear infinite;
+	z-index: -4;
 }
 
+#header {
+	text-align: center;
+	/*margin: 5px;*/
+	font-weight: 100;
+	font-size: 28px;
 
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 140px;
+	width: 550px;
+}
 
 #name {
-	text-align: center;
-	color: #FCF7EB;
+/*	text-align: center; */
+	font-size: 60px;
 	font-weight: 100;
-	margin: 5px;
+	margin-bottom: 30px;
 }
 
-.container{
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 5%;
-	margin-bottom: 5%;	
+.link {
+	font-size: 24px;
+
+}
+
+.home-link {
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 24px;
+}
+.content-container{
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 5px;*/
 	/* border-style: solid; */
 	/* border-width: 2px; */
 	padding: 5px;
-	height: 600px;
+	height: 350px;
+	overflow-y: scroll;
+	width: 100%;
 	/* border-color: white; */
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 5px;
+	/* border-style: solid; */
+	/* border-width: 2px; */
+	padding: 5px;
+	height: auto;
+	width: 60%;
 }
 
 .square-container {
@@ -118,14 +149,28 @@ body {
 }
 
 .rect-container {
-	border-color: #FCF7EB;
-	border-width: 2px;
-	border-style: solid;
-	display: inline-block;
+	padding: 10px;
+/*	border-color: #FCF7EB;
+	border-width: 1px;
+	border-style: solid;*/
+/*	display: inline-block;
 	float: left;
-	height: 40%;
-	width: 65%;
+*/	height: 75%;
+	width: 75%;
 	margin: 10px;
+
+
+	position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ /*   white-space: normal;
+    height: 50px;
+    width: 250px;*/
+
+}
+
+h1 {
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -141,9 +186,39 @@ h4 {
 	font-style: italic;
 }
 
+a {
+	color: #FCF7EB;
+	text-decoration: none;
+}
 
+a:hover {
+	text-decoration: underline;
+}
 
+nav {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	top: 0;
+	left: 0;
+	/*color: #FCF7EB;*/
+}
+.nav-item {
+	display: inline-block;
+	float: right;
+	margin: 15px;
+}
 
+#nav-home {
+	float: left;
+	margin: 5px;
+	margin-left: 10px;
+}
+
+#logo {
+	margin: 10px;
+	margin-left: 10px;
+}
 
 .lists {        /*classes and skills lists*/
 	padding-left: 20px;

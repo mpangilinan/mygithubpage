@@ -1,10 +1,16 @@
-$(function() {
-var star;
+$(document).ready(function() {
+
+
+	$("#name").fadeIn("slow");
+	
+
+	var star;
                 
+
     function init(){
         var twink = document.getElementById('twinkle-id');
-        twink.style.height = screen.height+'px';
-        twink.style.width = screen.width+'px';
+        // twink.style.height = screen.height+'px';
+        // twink.style.width = screen.width+'px';
         
         var rows = parseInt(screen.height/32);
         var cols = parseInt(screen.width/32);
@@ -20,10 +26,25 @@ var star;
                 twink.appendChild(star);
             }
         }
-        var content = document.getElementById('content')
-        content.style.left = (window.innerWidth-content.clientWidth)/2+'px';
+        // var content = document.getElementById('content')
+        // content.style.left = (window.innerWidth-content.clientWidth)/2+'px';
     }
     window.onload = init;
+
+   //  $("#c-link").click(function() {
+   //  	$("/contact").show();  
+   //  	$("#header").hide(); 
+  	// });
+  	// $("#p-link").click(function() {
+   //  	$("#professional").show();  
+   //  	console.log("professh");
+   //  	$("#header").hide(); 
+  	// });
+  	// $("#a-link").click(function() {
+   //  	$("#about").show();  
+   //  	$("#header").hide(); 
+  	// });
+
 
 
 });
