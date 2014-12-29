@@ -31,19 +31,19 @@ $(document).ready(function() {
     }
     window.onload = init;
 
-   //  $("#c-link").click(function() {
-   //  	$("/contact").show();  
-   //  	$("#header").hide(); 
-  	// });
-  	// $("#p-link").click(function() {
-   //  	$("#professional").show();  
-   //  	console.log("professh");
-   //  	$("#header").hide(); 
-  	// });
-  	// $("#a-link").click(function() {
-   //  	$("#about").show();  
-   //  	$("#header").hide(); 
-  	// });
+    $("#c-link").click(function() {
+    	$("/contact").show();  
+    	$("#header").hide(); 
+  	});
+  	$("#p-link").click(function() {
+    	$("#professional").show();  
+    	console.log("professh");
+    	$("#header").hide(); 
+  	});
+  	$("#a-link").click(function() {
+    	$("#about").show();  
+    	$("#header").hide(); 
+  	});
 
 
 
